@@ -1,0 +1,109 @@
+body,html{
+	margin:0;
+	padding: 0;
+	height: 100%;
+	font-family: sans-serif;
+}
+ul{
+	padding: 0;
+	margin: 0;
+
+}
+header{
+
+	background-color: #039be5;
+	color: #ffffff;
+	min-height: 70px;
+	border-bottom: #039be5 2px solid; 
+	padding-top:20px; 
+
+}
+#logo{
+	float: left;
+	margin: auto;
+	padding-left: 30px;
+}
+header h1{
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px;
+}
+
+header a:hover{
+	color: #0d47a1;
+	font-weight: bold;
+}
+
+header nav{
+	float: right;
+	margin-top:10px;
+}
+.d1{
+	width: 70%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	background: #ffffff;
+	}
+.login{
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	max-width: 500px;
+	right: 0;
+	margin: 0;
+	background: #039be5;
+	height: 100%;
+	z-index: 1;
+	color: #ffffff;
+}
+.login form{
+	margin: 160px 30px;
+}
+.login h2{
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+	
+}
+.login label{
+	display: block;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 8px;
+}
+.txtb{
+	width: 100%;
+	padding: 8px 0;
+	font-size: 18px;
+}
+.btn{
+	margin-top: 20px;
+	 display: block;
+	 background: #ffffff;
+	 font-size: 18px;
+	 padding: 8px 0;
+	 width: 100%;
+	 color: #039be5;
+}
+footer{
+	background-color: #039be5;
+	color: #ffffff;
+	height:50px;
+	text-align: center;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
