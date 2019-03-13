@@ -2,10 +2,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width-device-width", initial-scale=1>
-	<title>Samuel Email App</title>
+	<meta name="viewport" content="width-device-width, initial-scale=1.0"> 
+	
+	<title>EPIC Mail</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<script src="home.js" ></script>
+
 </head>
 <body>
 	<header>
@@ -15,54 +16,29 @@
 		<nav id="head">
 			<ul>
 				
-				<li><a href="signin.html">SignIn</a> </li>
+				<li><a href="login.html">SignIn</a> </li>
 				
 			</ul>
 		</nav>
 	</header>
-	<div id="first">
-		<div id ="innerbody">
-			<h2>WELCOME TO EPIC MAIL</h2>
-			<p class="par">If you are a new User,<br> Please kindly Sign Up,<br> If you are a Returning User <br>Kindly Sign In to view your mails. </p>
-		</div>
-		
-		<div class="formbody">
-					
-					<h1>Register</h1>
-					<form>
-					<div class ="form-box">
-					<label for "firstname"> FirstName: </label>
-					<input  type="text" id="fname" name="firstname" placeholder="Enter Your First Name" required>
-					</div>
-					<div class ="form-box">					
-					<label> LastName: </label>
-					<input id="lname" type="text" name="lastname" placeholder="Enter Your Last Name" required>
-					</div>
-					<div class="form-box">
-					<label>
-					Email: </label>
-					<input type="email" id="em" name="email" placeholder="Enter Your Email" required>
-					</div>
-					<div class="form-box">
-					<label>
-					Password: </label>
-					<input id="pass" type="password" name="password" placeholder="Enter Your Password" required>
-					</div>
-					<div class="form-box">
-  					<button onsubmit="checkform()">Submit</button>
-						</div>
-					</form>
-
-		</div>
-					
-
+	<div class="d1">
+	</div>
+	<div class="register">
+		<form>
+			<h2>SIGN UP FORM</h2>
+			<label for="">Firstname:</label>
+			<input class="txtb" type="text" name="" value="" required>
+			<label for="">Lastname:</label>
+			<input class="txtb" type="text" name="" value=""required>
+			<label for="">Email:</label>
+			<input class="txtb" type="email" name="" value="" required>
+			<label for="">Password:</label>
+			<input class="txtb" type="password" name="" value="" required>
+			<button  class="btn"><a href="signin.html"></a> SIGNUP</button>
+		</form>
 		
 	</div>
-	
-	<footer>
-		<p>Epic Mail by Samuel Aniefiok Copyright &copy; 2019</p>
-	
-	</footer>
+
 
 </body>
 </html>
